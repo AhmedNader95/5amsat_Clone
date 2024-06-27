@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body
+{
+    background-color:black;
+}
+
+.Services{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color:#444444;
+    height: 60px;
+    align-items: center;    
+    position: fixed;  
+    width: 100%;
+    z-index: 100;
+    
+}
+.Services div
+{
+margin: 15px;
+
+}
+.Services div a{
+    color: white;
+    text-decoration: none;
+}
+.IconNav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color:#D3D3D3;
+    align-items: left;
+
+}
+
+
+
+.header
+{
+    background-image: url(images/cover.jpg);
+    height: 500px;
+    background-image: url(images/cover.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+}
+.text{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.SearchBar{
+
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+.SearchBar input{
+width: 100%;
+height: 50px;
+border: none;
+text-align: right;
+}
+.SearchBar button{
+    background-color:#52B035;
+    padding: 15px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    bottom: 3px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    
+}
+.SearchBar button:hover{
+    background-color: green;
+}
+
+.SearchBar2
+{
+    width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.SearchBar2 button{
+    margin: 2px;
+    padding: 5px;
+    background-color:white;
+    border: none;
+    font-weight: bold;
+}
+
+.SearchBar2 button:hover{
+    background-color:#52B035;
+    color: white;
+}
+section .PicServices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.PicServices img{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    filter: blur(1px);
+    
+}
+.PicServices img:hover{
+    cursor: pointer;
+}
+.PicServices p{
+    position: absolute;
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 150%;
+
+}
+
+section .CommonServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CommonServices button{
+    width: 20%;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+
+.CommonServices div button img{
+    height: 30px;
+    width: 45px;
+    position: absolute;
+    top:15px;
+    right: 15px;
+
+}
+
+.CommonServices button:hover{
+    cursor: pointer;
+}
+
+section .RecommendedServices
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.RecommendedServices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 450px;
+    background-color: #FFFFFF;
+    position:relative;
+    
+}
+
+section .OverAllSolution {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.OverAllSolution button{
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin: 3px;
+    font-weight: bold;
+    font-family:Noto Kufi Arabic - 400;
+}
+
+section .About5amsat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.About5amsat button{
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin: 3px;
+    font-weight: bold;
+}
+
+
+section .BeforeFooter
+ {
+    display: flex;
+    flex-direction: row;
+    
+}
+   
+
+
+.BeforeFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75px;
+    background-color: #F1F1F1;
+    position:relative;
+}
+
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 60px;
+    position: fixed;  
+    width: 100%;
+    z-index: 100;
+    background-color:#444444;
+   
+}
+.Nav a{
+    text-decoration: none;
+    color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
